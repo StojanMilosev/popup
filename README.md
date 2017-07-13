@@ -1,2 +1,3 @@
 # popup
-simple popup using CSS and vanila Javascript
+Simple popup using CSS and vanila Javascript
+### [Live Demo](https://stojanmilosev.github.io/popup/)
