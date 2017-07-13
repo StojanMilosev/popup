@@ -8,3 +8,46 @@
     margin: auto;
     padding: 50px;
 }
+.popup-box{
+    margin: 20px auto;
+}
+.popup{
+    position: realtive;
+    display: inline-block;
+    cursor: pointer;
+    background: #dfdfdf;
+    color: #000;
+    border: solid thin #444;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.popup:hover,
+.active{
+    background-color: #757575;
+    color: #dfdfdf;
+}
+.bubble{
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    margin: 0 10px;
+}
+.bubble:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:transparent  #555 transparent transparent;
+}
+.show{
+    visibility: visible;
+}
